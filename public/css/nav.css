@@ -1,0 +1,25 @@
+nav {
+  background-color: lightblue;
+  font-size: 1.2em;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  flex-basis: 100%;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 1 em;
+}
+
+@media (min-width: 600px) {
+  .menu li {
+    flex-basis: auto;
+  }
+}

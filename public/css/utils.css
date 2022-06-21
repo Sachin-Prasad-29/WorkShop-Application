@@ -1,0 +1,47 @@
+.list-unstyle {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-plain {
+  text-decoration: none;
+  color: initial;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mt-3 {
+  margin-top: 1em;
+}
+
+.mb-3 {
+  margin-top: 1em;
+}
+
+.mt-2 {
+  margin-top: 0.75em;
+}
+
+.mb-2 {
+  margin-top: 0.75em;
+}
+
+.text-right {
+  text-align: right;
+}
+@media (max-width: 600px) {
+  .d-sm-none {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .d-lg-none {
+    display: none;
+  }
+}

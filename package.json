@@ -4,6 +4,8 @@
   "description": "WorkShop- application",
   "main": "index.js",
   "scripts": {
+    "copy": "cpx \"./node_modules/normalize.css/normalize.css\" \"public/external\"",
+    "start": "live-server --mount=/:public/ --open=index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +20,8 @@
   },
   "homepage": "https://github.com/Sachin-Prasad-29/WorkShop-Application#readme",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "cpx": "^1.5.0",
+    "live-server": "^1.2.2",
+    "normalize.css": "^8.0.1"
   }
 }
