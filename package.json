@@ -1,0 +1,23 @@
+{
+  "name": "workshop-application",
+  "version": "1.0.0",
+  "description": "WorkShop- application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sachin-Prasad-29/WorkShop-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sachin-Prasad-29/WorkShop-Application/issues"
+  },
+  "homepage": "https://github.com/Sachin-Prasad-29/WorkShop-Application#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
