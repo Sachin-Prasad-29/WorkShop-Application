@@ -30,6 +30,12 @@
 .mb-2 {
   margin-top: 0.75em;
 }
+.ml-3 {
+  margin-left: 20px;
+}
+.ml-2 {
+  margin-left: 0.75em;
+}
 
 .text-right {
   text-align: right;
@@ -44,4 +50,21 @@
   .d-lg-none {
     display: none;
   }
+}
+
+.img-responsive {
+  width: 70%;
+}
+
+.bold {
+  font-weight: 700;
+}
+.f-md {
+  font-size: 18px;
+}
+.f-sm {
+  font-size: 14px;
+}
+.pt-3 {
+  padding-top: 10px;
 }

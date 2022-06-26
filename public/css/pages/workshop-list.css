@@ -1,0 +1,38 @@
+.curr-Link-workshop {
+  color: blue;
+}
+.workshop-list {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  gap: 2em;
+  grid-template-rows: repeat(12, 350px);
+  grid-template-columns: repeat(1, 300px);
+  width: 100%;
+}
+.list-items {
+  background-color: rgba(245, 246, 240, 0.289);
+  height: 350px;
+  border: 1px solid lightblue;
+}
+.list-items:hover {
+  box-shadow: 0px 0px 9px 9px rgba(16, 150, 233, 0.36);
+}
+.list-items img{
+    display: flex;
+    margin: 0 auto;
+}
+
+@media all and (min-width: 650px) {
+  .workshop-list {
+    grid-template-rows: repeat(6, 350px);
+    grid-template-columns: repeat(2, 300px);
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .workshop-list {
+    grid-template-rows: repeat(4, 350px);
+    grid-template-columns: repeat(3, 300px);
+  }
+}

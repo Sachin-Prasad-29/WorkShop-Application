@@ -17,7 +17,10 @@ nav {
   padding: 0.5em;
   margin: 1 em;
 }
-
+.menu-button{
+  background-color: lightblue;
+    border: none;
+}
 @media (min-width: 600px) {
   .menu li {
     flex-basis: auto;
