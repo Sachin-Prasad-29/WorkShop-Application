@@ -73,3 +73,8 @@ nav{
 .pt-3 {
   padding-top: 10px;
 }
+
+nav ul li button{
+  background-color: lightblue;
+    border: none;
+}
